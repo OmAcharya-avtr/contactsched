@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ContactSched"
+abstract: ""Ground-station contact scheduling under multi-mission contention — station masks and sgp4 ephemerides into visibility windows, priority-ordered first-fit against an exact MILP assignment with declared fairness constraints, and the output that distinguishes it: contention and fairness metrics naming who was starved, by how much, and what the priority scheme actually delivered against what it promised, with max-min share and Jain index behaviour under priority inversion exhibited; learned conflict predictor for unsatisfiable requests scored against a demand-over-supply ratio baseline per station-window.""
+type: software
+authors:
+  - family-names: "Acharya"
+    given-names: "Om"
+    alias: "OmAcharya-avtr"
+repository-code: "https://github.com/OmAcharya-avtr/contactsched"
+license: "Apache-2.0"
+version: "0.1.0"
+date-released: "2026-08-30"
+keywords:
+  - aerospace
+  - satellite-communications
